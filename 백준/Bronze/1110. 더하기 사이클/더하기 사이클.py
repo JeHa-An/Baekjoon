@@ -4,7 +4,7 @@ input = sys.stdin.readline
 N = input().rstrip()
 c = 1
 
-if int(N) < 10:
+if int(N) < 10: # zfill()
     N = '0'+N[0]
 
 first = N
