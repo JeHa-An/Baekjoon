@@ -1,6 +1,6 @@
 num = []
 
-for i in range(10):
+for _ in range(10):
     e = int(input())
     num.append(e % 42)
 
