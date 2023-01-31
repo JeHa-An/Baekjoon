@@ -5,7 +5,5 @@ for i in range(28):
     B.append(A)
 
 for j in range(1, 31):
-    try:
-        B.index(j)
-    except:
+    if j not in B:
         print(j)
